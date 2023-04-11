@@ -116,7 +116,7 @@
             },
             {
               "name": "WEBSITE_CONTENTSHARE",
-              "value": "[toLower('DCRLogIngestAPI')]"
+              "value": "[toLower('Win11TagConverter')]"
             },
             {
               "name": "WEBSITE_RUN_FROM_PACKAGE",
@@ -178,7 +178,7 @@
       "properties": {
         "AzureWebJobsStorage": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}', variables('StorageAccountName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName')), '2021-02-01').keys[0].value)]",
         "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "[format('DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}', variables('StorageAccountName'), listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName')), '2021-02-01').keys[0].value)]",
-        "WEBSITE_CONTENTSHARE": "[toLower('DCRLogIngestAPI')]",
+        "WEBSITE_CONTENTSHARE": "[toLower('Win11TagConverter')]",
         "WEBSITE_RUN_FROM_PACKAGE": 1,
         "AzureWebJobsDisableHomepage": "true",
         "FUNCTIONS_EXTENSION_VERSION": "~4",
@@ -200,7 +200,7 @@
   "outputs": {
     "functionAppTriggerUrl": {
       "type": "string",
-      "value": "[format('https://{0}/api/DCRLogIngestAPI', reference(resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))).defaultHostName)]"
+      "value": "[format('https://{0}/api/Win11TagConverter', reference(resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))).defaultHostName)]"
     }
   }
 }
