@@ -187,7 +187,7 @@
         "PSWorkerInProcConcurrencyUpperBound": "10",
         "APPINSIGHTS_INSTRUMENTATIONKEY": "[reference(resourceId('Microsoft.Insights/components', variables('FunctionAppInsightsName')), '2020-02-02').InstrumentationKey]",
         "APPLICATIONINSIGHTS_CONNECTION_STRING": "[reference(resourceId('Microsoft.Insights/components', variables('FunctionAppInsightsName')), '2020-02-02').ConnectionString]",
-        "TenantID": "[subscription().tenantId]",
+        "TenantID": "[subscription().tenantId]"
       },
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]",
