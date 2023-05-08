@@ -7,4 +7,5 @@
     # To use the Az module in your function app, please uncomment the line below.
     # 'Az' = '9.*'
     'AADDeviceTrust.FunctionApp' = '1.*'
+    'Az.Accounts' = '2.2.3'
 }
