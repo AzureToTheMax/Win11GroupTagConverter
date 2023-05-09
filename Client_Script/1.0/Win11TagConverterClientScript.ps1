@@ -42,7 +42,7 @@ $LogFileName = "Win11GroupTagConverter.Log"
 $AzureFunctionURL = "Azure Function URL"
 
 #Delay Controller
-$Delay = $true
+$Delay = $false
 
 
 #Testing values
