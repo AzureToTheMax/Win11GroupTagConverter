@@ -16,6 +16,7 @@ Author:      Maxton Allen
 Contact:     @AzureToTheMax
 Created:     2023-03-26
 Updated:     2023-05-07
+Credit:      This script is based on the client-side script by Jan Ketil Skanke (@JankeSkanke) of the MSEndpointMgr team for the Intune Enhanced Inventory project.
 
             
 Version history:
