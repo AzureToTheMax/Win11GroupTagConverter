@@ -17,6 +17,7 @@ Author:      Maxton Allen
 Contact:     @AzureToTheMax
 Created:     2023-03-26
 Updated:     2023-05-21
+Credit:      This Function incorporates the work of Nickolaj Andersen (@NickolajA) of the MSEndpointMgr team and the AADDeviceTurst project. It is conceptually based on the work of Jan Ketil Skanke (@JankeSkanke) of the MSEndpointMgr team and the Intune Enhanced Inventory project. See my blog for more details.  
             
 Version history:
 
